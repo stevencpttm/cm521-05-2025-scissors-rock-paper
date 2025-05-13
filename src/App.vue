@@ -1,5 +1,6 @@
 <template>
   <div id="container">
+    <h1>GAME</h1>
     <div id="bot-placeholder">
       <img :src="botImage">
     </div>
@@ -128,5 +129,12 @@ export default {
  
 #buttons-container div#btn-rock {
   background-image: url('/public/images/rock-btn.png');
+}
+
+h1 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: -40px;
 }
 </style>
